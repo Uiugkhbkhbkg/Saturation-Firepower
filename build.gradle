@@ -26,7 +26,7 @@ ext{
     //the build number that this mod is made for
     mindustryVersion = 'v150'
     arcVersion = 'v150'
-    jabelVersion = "93fde537c7"
+    //jabelVersion = "93fde537c7"
     //sdkVersion = '30'
     sdkRoot = System.getenv("ANDROID_HOME")
 }
@@ -48,7 +48,7 @@ dependencies{
 
     compileOnly "com.github.Anuken.Arc:arc-core:$arcVersion"
     compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
-    annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
+    //annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
 }
 
 task jarAndroid{
