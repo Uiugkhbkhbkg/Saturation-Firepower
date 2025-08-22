@@ -18,6 +18,7 @@ import mindustry.graphics.Pal;
 import mindustry.type.Category;
 import mindustry.type.ItemStack;
 import mindustry.type.UnitType;
+import mindustry.type.Weather;
 import mindustry.world.blocks.defense.turrets.*;
 import mindustry.world.blocks.power.ConsumeGenerator;
 import mindustry.world.blocks.production.AttributeCrafter;
@@ -220,6 +221,8 @@ public class SFOverride {
                         lifetime = 20;
                         splashDamage = 50;
                         splashDamageRadius = 28;
+                        sticky = true;
+                        stickyExtraLifetime = 10;
                         scaledSplashDamage = true;
                         width = height = 9;
                         hitEffect = Fx.blastExplosion;
@@ -284,6 +287,8 @@ public class SFOverride {
                         lifetime = 20;
                         splashDamage = 35;
                         splashDamageRadius = 20;
+                        sticky = true;
+                        stickyExtraLifetime = 10;
                         scaledSplashDamage = true;
                         width = height = 9;
                         hitEffect = Fx.blastExplosion;
@@ -333,6 +338,8 @@ public class SFOverride {
                         collidesGround = true;
                         splashDamage = 35;
                         splashDamageRadius = 38;
+                        sticky = true;
+                        stickyExtraLifetime = 10;
                         scaledSplashDamage = true;
                         width = height = 8;
                         hitEffect = Fx.blastExplosion;
@@ -684,6 +691,8 @@ public class SFOverride {
                 new UnitType[]{SFUnitTypes.naval4, SFUnitTypes.naval5}
         );
         //endregion
+
+
 
 
 
